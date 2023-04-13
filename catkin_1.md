@@ -44,11 +44,11 @@ sudo apt-get install ros-noetic-catkin
 # Creating a Catkin Workspace
 
 ### Step 1:
-* Create the root workspace directory (we’ll use mitra_ws)
+* Create the root workspace directory (we’ll use dexbot_ws)
 ```
 cd 
-mkdir --parents mitra_ws/src
-cd mitra_ws
+mkdir --parents dexbot_ws/src
+cd dexbot_ws
 ```
 
 ### Step 2:
@@ -68,7 +68,7 @@ catkin build
 ```
 ls
 ```
-* See that the mitra_ws directory has build, devel directories.
+* See that the dexbot_ws directory has build, devel directories.
 
 ### Step 3:
 * Make the workspace visible to ROS. Source the setup file in the devel directory.
@@ -78,7 +78,7 @@ source devel/setup.bash
 * This file MUST be sourced for every new terminal.
 * To save typing, add this to your ~/.bashrc file, so it is automatically sourced for each new terminal: </br>
 • gedit `~/.bashrc` </br>
-• add to the end: `source ~/mitra_ws/devel/setup.bash`</br>
+• add to the end: `source ~/dexbot_ws/devel/setup.bash`</br>
 • save and close the editor </br>
 
 # Catckin Package
