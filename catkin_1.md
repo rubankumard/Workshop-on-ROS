@@ -98,7 +98,7 @@ source devel/setup.bash
   </p>
   
   ```
-  cd ~/mitra_ws/src
+  cd ~/dexbot_ws/src
   ```
   
   ### Step 2:
@@ -119,7 +119,7 @@ source devel/setup.bash
   ***Note: Always do Catkin make only at the root of workspace, or else you'll be in trouble***
   
   ```
-  cd ~/mitra_ws
+  cd ~/dexbot_ws
   catkin_make
 
   ```
