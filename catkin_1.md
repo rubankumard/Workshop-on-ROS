@@ -77,9 +77,9 @@ source devel/setup.bash
 ```
 * This file MUST be sourced for every new terminal.
 * To save typing, add this to your ~/.bashrc file, so it is automatically sourced for each new terminal: </br>
-• gedit `~/.bashrc` </br>
-• add to the end: `source ~/dexbot_ws/devel/setup.bash`</br>
-• save and close the editor </br>
+* `gedit ~/.bashrc` </br>
+* add to the end: `source ~/dexbot_ws/devel/setup.bash`</br>
+* save and close the editor </br>
 
 # Catckin Package
 <p> 
