@@ -116,6 +116,12 @@ source devel/setup.bash
   &emsp;&emsp;&emsp; ➢ Now you need to build the packages in the catkin workspace:
   </p>
   
+  ```
+  catkin build
+  ```
+  <details>
+  <summary> If you wish to choose working with catkin_make instead of `catkin build`:</summary>
+    </br></br> Don't know what is catkin_make, no worries, you can skip this part!!! :)</br></br>
   ***Note: Always do Catkin make only at the root of workspace, or else you'll be in trouble***
   
   ```
@@ -123,4 +129,5 @@ source devel/setup.bash
   catkin_make
 
   ```
-  
+  If running above throws an error, do catkin_clear and proceed the same
+  </details>
