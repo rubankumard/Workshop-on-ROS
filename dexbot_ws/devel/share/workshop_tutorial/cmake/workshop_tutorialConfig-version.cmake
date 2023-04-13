@@ -1,0 +1,1 @@
+/home/drk/dexbot_ws/devel/.private/workshop_tutorial/share/workshop_tutorial/cmake/workshop_tutorialConfig-version.cmake

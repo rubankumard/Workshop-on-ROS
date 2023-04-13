@@ -1,0 +1,8 @@
+prefix=/home/drk/dexbot_ws/devel/.private/workshop_tutorial
+
+Name: workshop_tutorial
+Description: Description of workshop_tutorial
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
