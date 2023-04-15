@@ -67,14 +67,14 @@ set(workshop_tutorial_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(workshop_tutorial_SOURCE_PREFIX /home/drk/dexbot_ws/src/workshop_tutorial)
-  set(workshop_tutorial_DEVEL_PREFIX /home/drk/dexbot_ws/devel/.private/workshop_tutorial)
+  set(workshop_tutorial_SOURCE_PREFIX /home/drk/dexbot/dexbot_ws/src/workshop_tutorial)
+  set(workshop_tutorial_DEVEL_PREFIX /home/drk/dexbot/dexbot_ws/devel)
   set(workshop_tutorial_INSTALL_PREFIX "")
   set(workshop_tutorial_PREFIX ${workshop_tutorial_DEVEL_PREFIX})
 else()
   set(workshop_tutorial_SOURCE_PREFIX "")
   set(workshop_tutorial_DEVEL_PREFIX "")
-  set(workshop_tutorial_INSTALL_PREFIX /home/drk/dexbot_ws/install)
+  set(workshop_tutorial_INSTALL_PREFIX /home/drk/dexbot/dexbot_ws/install)
   set(workshop_tutorial_PREFIX ${workshop_tutorial_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/drk/dexbot_ws/install/lib;/home/drk/dexbot_ws/devel/lib;/home/drk/mitra/mitra_ws/devel/lib;/home/drk/hardware_ws/devel/lib;/home/drk/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/drk/dexbot/dexbot_ws/install/lib;/home/drk/mitra/mitra_ws/devel/lib;/home/drk/hardware_ws/devel/lib;/home/drk/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -1,0 +1,2 @@
+workshop_tutorial
+-DCATKIN_DEVEL_PREFIX=/home/drk/dexbot/dexbot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/drk/dexbot/dexbot_ws/install -G Unix Makefiles

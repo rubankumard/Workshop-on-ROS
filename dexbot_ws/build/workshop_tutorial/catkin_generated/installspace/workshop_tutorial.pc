@@ -1,4 +1,4 @@
-prefix=/home/drk/dexbot_ws/install
+prefix=/home/drk/dexbot/dexbot_ws/install
 
 Name: workshop_tutorial
 Description: Description of workshop_tutorial
