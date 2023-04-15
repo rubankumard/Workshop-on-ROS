@@ -147,4 +147,42 @@ sudo apt -y install gazebo
  
  Got an empty world spawned 👀??
  
+# Installing Visual Studio Code (VS-Code)
+
+* Type the following in a new terminal
+```
+sudo snap install --classic code
+```
+***Note:***
+* If you get a ERROR stating, Command sudo not found,
+```
+apt update && apt upgrade
+apt install sudo
+```
+* If you get a ERROR stating, Command snap not found,
+```
+sudo apt update
+sudo apt install snapd
+```
+ 
+ # Installing turtlesim
+ 
+ * To install turtle sim, enter the following in a new terminal
+ 
+ ```
+ sudo apt-get install ros-noetic-turtlesim 
+ ```
+ 
+ * After installing the turtlesim package we will initialize rosdep which is a onetime initialization step. If the ROS works correctly we don’t need to initialize it again. The command will be,
+
+```
+sudo rosdep init
+```
+***Note: If the above statement throws an error stating, "ERROR: default sources list file already exists", you can ignore the error and proceed further***
+
+* You can update the rosdep using the command
+```
+rosdep update
+```
+ 
  ### 🥳 Hurray!!! We are done with the setup!!!  🥳
