@@ -184,5 +184,14 @@ sudo rosdep init
 ```
 rosdep update
 ```
- 
+
+# Installing rqt Graph
+
+* Type the following in a new terminal
+
+```
+sudo apt-get install ros-<distro>-rqt
+sudo apt-get install ros-<distro>-rqt-common-plugins
+```
+
  ### 🥳 Hurray!!! We are done with the setup!!!  🥳
